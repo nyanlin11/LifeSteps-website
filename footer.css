@@ -1,0 +1,42 @@
+.footer li{
+    list-style:none ;
+    margin-bottom: 7px;
+    
+ 
+}
+.allfooter {
+    background-color: rgb(67, 113, 114);
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.footer {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.footerbottom {
+    text-align: center;
+    border-top: 1px solid lightcyan;
+    padding: 10px 0;
+}
+.footer img {
+    width: 70px;
+    height: 70px;
+}
+.footer li a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.footer ul {
+    padding-left: 0px;
+}
+
+@media screen and (max-width:768px){
+     .footer {
+        margin-left: 20px;
+     }
+}

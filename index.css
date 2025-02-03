@@ -1,0 +1,208 @@
+body,html { 
+    height: 100%;
+    background-color: lightcyan;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 100%;
+    height: 87%;
+    background: url(image/wel.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    top: 65px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    
+}
+.container::before {
+    content:"";
+    background-color: rgba(8, 1, 1, 0.436);
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    border-radius: 10px;
+}
+
+nav li .active {
+    color: black;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 270px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: white;
+    padding: 0 20px;
+   
+    
+}
+
+.lifeskill {
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(67, 113, 114), rgb(120, 170, 171));
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.lifeskill img {
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+}
+
+/*  */
+
+.box img {
+    width: 50%;
+    height: 25%;
+}
+.box {
+    background: linear-gradient(to bottom, rgb(67, 113, 114), rgb(120, 170, 171));
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 10px;
+  }
+  
+  .box-container {
+     text-align: center;
+     margin-bottom: 100px;
+  }
+  
+
+
+/* FAQ */
+.faqans1,.faqans2,.faqans3,.faqans4,.faqans5{
+    background-color: rgb(74, 218, 223);
+    padding: 20px;
+    box-shadow: 2px 2px 3px 2px lightgrey; 
+    display: none;
+}
+
+#faq1:checked ~ .faqans1 {
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 15px;
+     
+}
+#faq2:checked ~ .faqans2 {
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    
+}
+#faq3:checked ~ .faqans3 {
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 15px;
+  
+}
+#faq4:checked ~ .faqans4 {
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 15px;
+   
+}
+#faq5:checked ~ .faqans5 {
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 15px;
+  
+}
+
+#faq1,#faq2,#faq3,#faq4,#faq5 {
+   display: none;
+   
+   
+}
+
+.faq label {
+    background: linear-gradient(to bottom, rgb(67, 113, 114), rgb(120, 170, 171));
+    display: block;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 0 8px 0 8px;
+}
+
+.faq h2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+label:hover {
+    box-shadow: 0 0 2px 2px rgb(125, 153, 154);
+}
+
+.faq {
+    margin-bottom: 100px;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+
+.info {
+    border: 1px solid rgb(67, 113, 114);
+    background: linear-gradient(to bottom, rgb(67, 113, 114), rgb(120, 170, 171));
+    padding: 5px;
+    margin:3px;
+    text-align: center;
+    box-shadow: 0 0 2px 2px rgb(201, 220, 220) ;
+}
+
+.input input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+}
+
+.form button{
+    padding: 15px;
+    background-color: rgb(67, 113, 114);
+    border-radius: 6px;
+    border: none;
+    
+}
+
+.team img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 0 4px rgb(114, 111, 111);
+    
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.box {
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+
+}
+

@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 70px;
+    background-color: lightcyan;
+}
+
+nav li .articles {
+    color: black;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+button {
+    background-color: rgb(67, 113, 114);
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+}
+
+.photo img {
+   width: 100%;
+   margin-top: 14px;
+   border-radius: 3px;
+   box-shadow: 0 0 4px 3px rgb(122, 165, 165);
+}
+
+.border {
+    border-bottom: 2px dashed rgb(86, 85, 85);
+    margin: auto;
+    width: 83.33%;
+}

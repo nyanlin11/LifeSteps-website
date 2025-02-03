@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:lightcyan;
+    }
+
+nav li .skill {
+    color: black;
+    padding: 5px;
+    border-radius: 4px;
+}
+.hero {
+    background: linear-gradient(to bottom, rgb(67, 113, 114), rgb(120, 170, 171));
+    margin-top: 70px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 100px;
+  
+}
+
+.container {
+   padding: 20px;
+   
+}
+.text {
+    width: 100%;
+    padding: 20px;
+}
+.image {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+}
+.image img {
+    width: 360px;
+    height: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 4px 3px rgb(122, 165, 165);
+}
